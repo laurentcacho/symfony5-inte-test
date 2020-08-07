@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ parent() }}Connexion, inscription{% endblock %}
+
+{% block body %}
+    <h1>À toi de jouer !</h1>
+{% endblock %}
+
+
+
+{#
+
+    Ressources:
+
+    Formulaire de connexion : {{ form(loginForm) }}
+    Formulaire de d'inscription : {{ form(loginForm) }}
+
+    Icones :
+    Les icones sont des span auxquelles tu donnes une classe (genre fontawesome) tu trouveras la liste des classes en ouvrant dans ton navigateur le fichier qui se trouve dans assets/icomoon/demo.html
+    Ex pour le logo de la newsletter dans le menu (enveloppe) : <span class="icon-emailles-cachotieres"></span>
+    Ne perd pas trop de temps là dessus, si tu es plus à l'aise avec fontawesome vas-y!
+
+    Images:
+    Pour la connexion: <img src="{{ asset('build/images/login-page.jpg') }}" alt="login">
+    Pour l'inscription: <img src="{{ asset('build/images/register-page.jpg') }}" alt="register">
+
+#}
+
+

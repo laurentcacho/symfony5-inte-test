@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ parent() }}Welcome On Board{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row align-items-center justify-content-center vh-100 text-center">
+            <div class="jumbotron">
+                <h1 class="mb-5">
+                    Bienvenue sur le test d'intégration Les Cachotières !
+                </h1>
+
+                <p>
+                    Tu trouveras toutes les infos dont tu as besoin sur ce test dans le README.md à la racine du projet. <br>
+                    En cas de soucis, n'hésites à nous appeler ou envoyer un mail à <a href="mailto:tech@lescachotieres.com">tech@lescachotieres.com</a>.
+                    <br>Have fun 😎
+                </p>
+
+                <hr>
+                <h2>
+                    Tout se passe <a class="btn btn-primary" href="{{ path('login') }}">ici</a> !
+                </h2>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,17 @@
+@import "~bootstrap";
+@import "../icomoon/style.css";
+
+@font-face {
+    font-family: "ZingScriptRustSBDemo-Base";
+    src: url("../fonts/ZingRust-font/ZingScriptRustSBDemo-Base.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+$main-font: 'Montserrat', sans-serif;
+$subtitle-font: 'ZingScriptRustSBDemo-Base', sans-serif;
+
+body {
+    font-family: $main-font;
+}
